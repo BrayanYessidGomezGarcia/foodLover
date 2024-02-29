@@ -3,16 +3,20 @@
 *{
     padding: 0%;
     margin: 0%;
-    background-image: url("storage/.img/placeYourImageHere0.png");
+    background-image: url("storage\img\placeYourImageHere0.png");
     background-position: 10px; ;
 }
 .container{
     background: rgb(62, 60, 60);
     width: 100%;
-    height: 100%;
+    height: 910px;
 }
-.left{
-    background-size: auto;
+.left img{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    justify-content: start;
+
 }
 h1{
     color: rgb(249, 158, 22);
@@ -46,10 +50,10 @@ h3{
     position: relative;
     border: solid gb(249, 158, 22);
     color: black;
+    background: transparent;
     font-family: "Bree Serif", serif;
     font-size: x-large;
     font-weight: 900;
-    background: transparent;
     cursor: pointer;
     transition: 0.2s ease;
     border-radius: 10px;
@@ -60,6 +64,7 @@ h3{
     width: 10%;
     height: 10%;
     justify-content: space-between;
+    padding: 20px 60px;
 }
 .home{
     color: white;
@@ -67,7 +72,7 @@ h3{
     font-family: "Bree Serif", serif;
     font-size:larger;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px 50px;
 }
 .about{
     color: white;
@@ -75,7 +80,7 @@ h3{
     font-family: "Bree Serif", serif;
     font-size:larger;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px 50px;
 }
 .menu{
     color: white;
@@ -83,7 +88,7 @@ h3{
     font-family: "Bree Serif", serif;
     font-size:larger;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px 50px;
 }
 .offers{
     color: white;
@@ -91,7 +96,7 @@ h3{
     font-family: "Bree Serif", serif;
     font-size:larger;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px 50px;
 }
 .gallery{
     color: white;
@@ -99,7 +104,7 @@ h3{
     font-family: "Bree Serif", serif;
     font-size:larger;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px 50px;
 }
 .contact{
     color: white;
@@ -117,33 +122,32 @@ h3{
     font-weight: 900;
     margin: 20px;
 }
-.busqueda{
+.gallery{
+    color: white;
+    text-align: start;
+    font-family: "Bree Serif", serif;
+    font-size:larger;
+    font-weight: 900;
+    margin: 30px 50px;
+}
+.contact{
+    color: white;
+    text-align: start;
+    font-family: "Bree Serif", serif;
+    font-size:larger;
+    font-weight: 900;
+    margin: 30px 50px;
+}
+.blog{
+    color: white;
+    text-align: start;
+    font-family: "Bree Serif", serif;
+    font-size:larger;
+    font-weight: 900;
+    margin: 30px 50px;
+}
+img{
     display: flex;
-    width: 10%;
-    height: 10%;
-    flex-direction: flex-end;
-}
-.gallery{
-    color: white;
-    text-align: start;
-    font-family: "Bree Serif", serif;
-    font-size:larger;
-    font-weight: 900;
-    margin: 20px;
-}
-.contact{
-    color: white;
-    text-align: start;
-    font-family: "Bree Serif", serif;
-    font-size:larger;
-    font-weight: 900;
-    margin: 20px;
-}
-.blog{
-    color: white;
-    text-align: start;
-    font-family: "Bree Serif", serif;
-    font-size:larger;
-    font-weight: 900;
-    margin: 20px;
+    height: 100px;
+    margin: 20px 200px;
 }
