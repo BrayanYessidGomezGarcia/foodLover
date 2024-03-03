@@ -4,7 +4,7 @@
     margin: 0%;
     font-family: "roboto slaph";
 }
-body{
+.container_1{
     background-image: url("/storage/img/placeYourImageHere0.png");
     background-repeat: no-repeat;  
     background-attachment: fixed;
@@ -12,23 +12,23 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.container_1{
+.sub_container{
     top: 0;
     left: 0;
     width: 100%;
     height: 910px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 .box_1{
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 97%;
     background-color: rgba(0, 0, 0, 0.7); /* Añade un color de fondo transparente */
     display: flex;
     justify-content: space-evenly; /* Alinea los elementos en los extremos */
     align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px 20px; /* Añade un poco de espacio alrededor del contenido */
+    padding: 0; /* Añade un poco de espacio alrededor del contenido */
     z-index: 1000; 
 }
 .Menus{
@@ -135,3 +135,36 @@ p{
     margin: 0px 670px 200px 1px;
 }
 
+/* Codigo Pagina 3 */
+.container_3{
+    background-image: url(/storage/img/Fondo_Pagina_3.png);
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-blend-mode: exclusion;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sub_container_3{
+    display: flex;
+    width: 900%;
+    height: 900%;
+    position: static;
+    margin: 100px 500px;
+}   
+.boton_2{
+    top: 0;
+    left: 0;
+    width: 50% ;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 100px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.titulo_pag_3{
+    color: white ;
+    font-family: "roboto slaph";
+    text-align: center ;
+    align-self: flex-start;
+}
