@@ -5,18 +5,21 @@
     font-family: "roboto slaph";
 }
 .container_1{
+    height: 911px;
+    width: 100%;
     background-image: url("/storage/img/placeYourImageHere0.png");
     background-repeat: no-repeat;  
     background-attachment: fixed;
     background-blend-mode: exclusion;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 .sub_container{
     top: 0;
     left: 0;
     width: 100%;
-    height: 910px;
+    height: 911px;
     background-color: rgba(0, 0, 0, 0.7); 
 }
 .box_1{
@@ -30,6 +33,7 @@
     align-items: center; /* Centra verticalmente los elementos */
     padding: 0; /* Añade un poco de espacio alrededor del contenido */
     z-index: 1000; 
+    padding: 7px;
 }
 .Menus{
     display: flex;
@@ -49,7 +53,6 @@ li a{
 img{
     display: flex;
     align-items: center;
-    margin: 10px 60px;
 }
 .others{
     display: flex;
@@ -65,11 +68,12 @@ img{
     display: flex;
     flex-direction: row;
     text-align: right;
+    align-content: flex-start;
 }
 .texto{
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     color: white;
     content: 60px;
     list-style: none;
@@ -88,9 +92,10 @@ h1{
 }
 .imagen{
     display: flex;
-    justify-content: center; 
-    align-items: flex-end; 
-    height: 100
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 500px;
+    margin:40px
 }
 .imagen img{
     width: 900px;
@@ -137,34 +142,49 @@ p{
 
 /* Codigo Pagina 3 */
 .container_3{
+    height: 911px;
+    width: 100%;
     background-image: url(/storage/img/Fondo_Pagina_3.png);
     background-repeat: no-repeat;  
     background-attachment: fixed;
     background-blend-mode: exclusion;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+
 }
 .sub_container_3{
     display: flex;
-    width: 900%;
-    height: 900%;
+    width: 300px;
+    height: 900px;
     position: static;
-    margin: 100px 500px;
 }   
-.boton_2{
+.offers{
+    display: flex;
+    width: 100%;
+    height: 900px;
+}
+.texto_pag_3{
     top: 0;
     left: 0;
-    width: 50% ;
-    height: 450px;
+    width: 40%;
+    height: 55%;
     background-color: rgba(0, 0, 0, 0.7); 
-    padding: 100px;
+    display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    margin: 200px 550px;
+    border: 7px solid #e58f00 ;
 }
 .titulo_pag_3{
-    color: white ;
-    font-family: "roboto slaph";
-    text-align: center ;
-    align-self: flex-start;
+    color: white;
+    display: flex;
+    text-align: center;
+    margin: 60px 50px 5px 210px;
+    font-size: 50px; 
+}
+.parrafo_pag_3{
+    display: flex;
+    text-align: center;
+    margin:  50px 100px 400px 80px;
+    font-size: 32px;
 }
