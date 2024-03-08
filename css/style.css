@@ -5,7 +5,7 @@
     font-family: "roboto slaph";
 }
 .container_1{
-    height: 911px;
+    height: 100vh;
     width: 100%;
     background-image: url("/storage/img/placeYourImageHere0.png");
     background-repeat: no-repeat;  
@@ -19,7 +19,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 911px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7); 
 }
 .box_1{
@@ -112,37 +112,34 @@ p{
     text-overflow: ellipsis; 
     margin: 20px 300px 40px 30px;
 }
-.bottom{
+.botton{
     width: 200px;
     height: 60px;
     display: flex;
     align-items: start;
     background: #e58f00;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     border-color: #e58f00;
-    margin: 100px;
-    
-}
-.botton button{
-    width: 200px;
-    height: 60px;
-    margin: 0px;
-    position: relative;
-    border: solid gb(249, 158, 22);
-    color:#323239;
-    background: #e58f00;
-    font-family: "Bree Serif", serif;
+    margin: 0 660px 0px 0px;
+    align-items: center;
+    justify-content: center;
     font-size: x-large;
-    font-weight: 900;   
+    font-family: "roboto slaph";
+    font-weight: bold;
     cursor: pointer;
-    border-radius: 10px;
-    border-color: #e58f00;
-    margin: 0px 670px 200px 1px;
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
+.botton:active {
+    background: rgba(230, 100, 0, 0.315);
+    box-shadow: none; 
+    }
+
 
 /* Codigo Pagina 3 */
+    
 .container_3{
-    height: 911px;
+    height: 100vh;
     width: 100%;
     background-image: url(/storage/img/Fondo_Pagina_3.png);
     background-repeat: no-repeat;  
