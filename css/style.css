@@ -1,187 +1,230 @@
-@import url(style.css);
-*{
-    padding: 0%;
-    margin: 0%;
-    font-family: "roboto slaph";
-}
-.container_1{
-    height: 100vh;
-    width: 100%;
-    background-image: url("/storage/img/placeYourImageHere0.png");
-    background-repeat: no-repeat;  
-    background-attachment: fixed;
-    background-blend-mode: exclusion;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-.sub_container{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7); 
-}
-.box_1{
-    position: static;
-    top: 0;
-    left: 0;
-    width: 97%;
-    background-color: rgba(0, 0, 0, 0.7); /* Añade un color de fondo transparente */
-    display: flex;
-    justify-content: space-evenly; /* Alinea los elementos en los extremos */
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 0; /* Añade un poco de espacio alrededor del contenido */
-    z-index: 1000; 
-    padding: 7px;
-}
-.Menus{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: large;
-    align-content: space-around;
-    margin: 20px;
-    content: 60px;
-    list-style: none;
-}
-li a{
-    margin: 10px 20px;
-    word-spacing: 700px;
-    
-}
-img{
-    display: flex;
-    align-items: center;
-}
-.others{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: large;
-    align-content: row-reverse;
-    margin: 20px;
-    content: 60px;
-    list-style: none;
-}
-.left{
-    display: flex;
-    flex-direction: row;
-    text-align: right;
-    align-content: flex-start;
-}
-.texto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    content: 60px;
-    list-style: none;
-}
-h1{
-    display: flex;
-    color:  #e58f00;
-    font-family: "roboto slaph";
-    text-align: right ;
-    align-items: end;
-    align-self: flex-start;
-    font-size: 58px; 
-    margin: 300px 500px 0 0; 
-    height: 100px;
-    width: 400px;
-}
-.imagen{
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
-    height: 500px;
-    margin:40px
-}
-.imagen img{
-    width: 900px;
-    height: 700px;
-    align-items: flex-end;
-    margin-top: 120px;
-}
-p{
-    display: flex;
-    color: white;
-    font-family: "roboto slaph";
-    text-align: start    ;
-    font-size: 30px; 
-    text-overflow: ellipsis; 
-    margin: 20px 300px 40px 30px;
-}
-.botton{
-    width: 200px;
-    height: 60px;
-    display: flex;
-    align-items: start;
-    background: #e58f00;
-    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border-color: #e58f00;
-    margin: 0 660px 0px 0px;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
-    font-family: "roboto slaph";
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-}
-.botton:active {
-    background: rgba(230, 100, 0, 0.315);
-    box-shadow: none; 
+    @import url(style.css);
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: "roboto slaph";
+    }
+    .container_1{
+        height: 100vh;
+        width: 100%;
+        background-image: url("/storage/img/placeYourImageHere0.png");
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+        background-blend-mode: exclusion;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .sub_container{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7); 
+    }
+    .box_1{
+        position: static;
+        top: 0;
+        left: 0;
+        width: 200vh;
+        background-color: rgba(0, 0, 0, 0.7); /* Añade un color de fondo transparente */
+        display: flex;
+        justify-content: space-around; /* Alinea los elementos en los extremos */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 10px; /* Añade un poco de espacio alrededor del contenido */
+        z-index: 1000; 
+        padding: 7px;
+    }
+    .Menus{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: large;
+        align-content: space-around;
+        margin: 20px;
+        content: 60px;
+        list-style: none;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .others{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: large;
+        justify-content: space-around;
+        margin: 20px;
+        content: 60px;
+        list-style: none;
+        width: 20vh;
+    }
+    .others .boton_menus {
+        margin-right: 30px; /* Ajusta el valor según el espacio deseado entre los botones */
+    }
+    .menus_home{
+        height: 60px;
+        width: 100vh;
+        font-family: "Roboto Slab", serif;
+        background: black ;
+        border: black;
+        box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+        font-size: 20px;
+        color: white;   
+        cursor: pointer;
+        transition: background-color 0.5s, box-shadow 0.5s; 
+        text-decoration: none;
+    }
+    .menus_home:active{
+        background-color: rgba(197, 194, 194, 0);
+        color: #e58f00;
+        box-shadow: none;   
     }
 
+    .boton_menus{
+        height: 60px;
+        width: 100px;
+        background: black ;
+        border: black;
+        box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+        font-size: medium;
+        color: white;   
+        cursor: pointer;
+        transition: background-color 0.5s, box-shadow 0.5s; 
+    }
+    .boton_menus:active{
+        background-color: rgba(197, 194, 194, 0);
+        color: #e58f00;
+        box-shadow: none;
+    }
+    .left{
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+        align-content: flex-start;
+    }
+    .texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        content: 60px;
+        list-style: none;
+    }
+    .titulo_pg_1{
+        display: flex;
+        color:  #e58f00;
+        font-family: "Roboto Slab", serif;
+        text-align: right ;
+        align-items: end;
+        align-self: flex-start;
+        font-size: 58px; 
+        font-weight: bolder;
+        margin: 200px 0 0 0; 
+        height: 100px;
+        width: 50vh;
+    }
+    .imagen{
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center; 
+        height: 500px;
+        margin:70px
+    }
+    .imagen img{
+        width: 900px;
+        height: 700px;
+        align-items: flex-end;
+        margin-top: 120px;
+    }
+    .parrafo_pg_1{
+        display: flex;
+        width: 60vh;
+        color: white;
+        font-family: "Roboto Slab", serif;
+        text-align: start    ;
+        font-size: 30px; 
+        text-overflow: ellipsis; 
+        margin: 20px 0px 50px 120px;
+    }
+    .botton{
+        width: 200px;
+        height: 60px;
+        display: flex;
+        align-items: start;
+        background: #e58f00;
+        box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        border-color: #e58f00;
+        margin: 0 400px 0px 100px;
+        align-items: center;
+        justify-content: center;
+        font-size: x-large;
+        font-family: "Roboto Slab", serif;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+    .botton:active {
+        background: rgba(230, 100, 0, 0.315);
+        box-shadow: none; 
+        }
 
-/* Codigo Pagina 3 */
-    
-.container_3{
-    height: 100vh;
-    width: 100%;
-    background-image: url(/storage/img/Fondo_Pagina_3.png);
-    background-repeat: no-repeat;  
-    background-attachment: fixed;
-    background-blend-mode: exclusion;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
 
-}
-.sub_container_3{
-    display: flex;
-    width: 300px;
-    height: 900px;
-    position: static;
-}   
-.offers{
-    display: flex;
-    width: 100%;
-    height: 900px;
-}
-.texto_pag_3{
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 55%;
-    background-color: rgba(0, 0, 0, 0.7); 
-    display: flex;
-    flex-direction: column;
-    margin: 200px 550px;
-    border: 7px solid #e58f00 ;
-}
-.titulo_pag_3{
-    color: white;
-    display: flex;
-    text-align: center;
-    margin: 60px 50px 5px 210px;
-    font-size: 50px; 
-}
-.parrafo_pag_3{
-    display: flex;
-    text-align: center;
-    margin:  50px 100px 400px 80px;
-    font-size: 32px;
-}
+    /* Codigo Pagina 3 */
+        
+    .container_3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/storage/img/Fondo_Pagina_3.png);
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+        background-blend-mode: exclusion;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+    .sub_container_3{
+        display: flex;
+        width: 300px;
+        height: 900px;
+        position: static;
+    }   
+    .offers{
+        display: flex;
+        width: 100%;
+        height: 900px;
+    }
+    .texto_pag_3{
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 55%;
+        background-color: rgba(0, 0, 0, 0.7); 
+        display: flex;
+        flex-direction: column;
+        margin: 200px 650px;
+        border: 7px solid #e58f00 ;
+        text-align: center;
+    }
+    .titulo_pag_3{
+        color: white;
+        display: flex;
+        font-family: "Roboto Slab", serif;;
+        text-align: center;
+        margin: 60px 50px 5px 210px;
+        font-size: 50px; 
+    }
+    .parrafo_pag_3{
+        display: flex;
+        width: 70vh;
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+        color: white;
+        margin:  40px 500px 100px 45px;
+        font-size: 30px;
+    }
